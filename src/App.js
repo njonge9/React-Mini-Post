@@ -1,7 +1,19 @@
 import "./App.css";
 
 function App() {
-  return <div className="App">Hello React!!</div>;
+  const title = "Welcome to the new blog";
+  const likes = 50;
+  const link = "https://www.google.com"
+
+  return (
+    <div className="App">
+      <div className="content">
+        <h1>{title}</h1>
+        <p>Liked {likes} times</p>
+        <a href= {link}>Google site</a>
+      </div>
+    </div>
+  );
 }
 
 export default App;
