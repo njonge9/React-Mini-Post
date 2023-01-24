@@ -29,6 +29,22 @@
   padding: 6px;
 }
 
+.blog-preview {
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid white;
+}
+
+.blog-preview:hover {
+  box-shadow: 1px 3px 5px darkgray;
+}
+
+.blog-preview h2 {
+  font-size: 20px;
+  color: pink;
+  margin-bottom: 8px;
+}
+
 .navbar a:hover {
   color: pink;
 }
